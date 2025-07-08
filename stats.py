@@ -3,9 +3,6 @@ def count_words(text: str) -> int:
 
     return count
 
-def sort_on(items):
-    return items["num"]
-
 def sort_char_dict(char_dict: dict) -> dict:
     sorted_char_dicts = []
     for item in char_dict:
